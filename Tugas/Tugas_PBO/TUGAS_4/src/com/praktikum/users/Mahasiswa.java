@@ -1,9 +1,10 @@
 package com.praktikum.users;
 
+import com.praktikum.actions.AdminActions;
 import com.praktikum.actions.MahasiswaActions;
 import java.util.Scanner;
 
-public class Mahasiswa extends User implements MahasiswaActions{
+public class Mahasiswa extends User implements MahasiswaActions {
 
     Scanner scanner = new Scanner(System.in);
 
